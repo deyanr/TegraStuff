@@ -1,0 +1,13 @@
+http://www.tabletroms.com/forums/ac100-rom-development/6887-ac100-10t-restore-android-2-2-a.html
+
+ac100/nvflash# nvflash --bl harmony/fastboot.bin --sync
+
+//copy *.* to /tmp
+
+ac100/flash-images/froyo# nvflash -r --download 5 tac100-part-5.img
+ac100/flash-images/froyo# nvflash -r --download 6 tac100-part-6.img
+ac100/flash-images/froyo# nvflash -r --download 7 tac100-part-7.img
+ac100/flash-images/froyo# nvflash -r --download 8 tac100-part-8.img
+ac100/flash-images/froyo# nvflash -r --download 10 tac100-part-10.img
+ac100/flash-images/froyo# nvflash -r --download 11 tac100-part-11.img
+ac100/flash-images/froyo# nvflash -r --download 13 tac100-part-13.img
