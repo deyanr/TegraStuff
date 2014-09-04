@@ -15,5 +15,5 @@ sudo apt-get install abootimg
 
 sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade
 
-
+//http://avedo.net/307/installing-ubuntu-12-10-on-toshiba-ac100/
 
