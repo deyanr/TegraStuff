@@ -9,3 +9,11 @@ nvflash -r --download 6 /tmp/u.bootimg
 
 //reboot ac100 by holding powerbtn (twice)
 // ...formating /dev/mmcblk0p7
+
+
+sudo apt-get install abootimg
+
+sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade
+
+
+
