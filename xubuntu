@@ -3,3 +3,7 @@ wget http://share.grandou.net/debian/nvflash/nvflash_20110628-2_all.deb
 sudo dpkg -i nvflash_20110628-2_all.deb
 
 nvflash --bl /usr/lib/nvflash/fastboot.bin --sync
+nvflash -r --download 6 ubuntu-12.10-preinstalled-desktop-armhf+ac100.bootimg
+
+
+//nvflash --bl /usr/lib/nvflash/fastboot.bin --download 6 /path/to/lubuntu-12.10-preinstalled-desktop-armhf+ac100.bootimg
